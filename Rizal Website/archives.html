@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Rizal | Archives – Primary Sources & Documents</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #f9f6f0; color: #1f1b16; }
+    :root { --rust: #b45f2b; --espresso: #3b2a22; --warm-gray: #e8e1d5; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+    .site-header { background: white; border-bottom: 2px solid var(--rust); position: sticky; top: 0; z-index: 100; }
+    .header-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 20px 0; gap: 24px; }
+    .logo h1 { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; color: var(--espresso); }
+    .logo p { font-size: 0.7rem; letter-spacing: 2px; color: #8f7a62; }
+    .nav-links { display: flex; gap: 28px; list-style: none; font-weight: 500; flex-wrap: wrap; }
+    .nav-links a { text-decoration: none; color: #2f2a24; }
+    .nav-links a:hover, .nav-links .active { color: var(--rust); border-bottom: 2px solid var(--rust); padding-bottom: 4px; }
+    .page-hero { background: #1f1b16; color: white; padding: 60px 0; text-align: center; }
+    .page-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: 3rem; }
+    .archive-filters { display: flex; gap: 16px; flex-wrap: wrap; margin: 40px 0 32px; }
+    .filter-btn { background: white; border: 1px solid var(--warm-gray); padding: 8px 24px; border-radius: 40px; cursor: pointer; font-weight: 500; transition: 0.2s; }
+    .filter-btn:hover, .filter-btn.active { background: var(--rust); color: white; border-color: var(--rust); }
+    .documents-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 28px; margin: 32px 0 64px; }
+    .doc-card { background: white; border-radius: 24px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.05); transition: 0.2s; border: 1px solid #e8dfd2; }
+    .doc-card:hover { transform: translateY(-4px); box-shadow: 0 16px 28px rgba(0,0,0,0.08); }
+    .doc-preview { height: 180px; background-size: cover; background-position: center; background-color: #d9cdb8; display: flex; align-items: center; justify-content: center; }
+    .doc-preview i { font-size: 3rem; color: #8f7358; background: rgba(255,255,255,0.7); padding: 16px; border-radius: 60px; }
+    .doc-info { padding: 20px; }
+    .doc-info h3 { font-size: 1.2rem; margin-bottom: 8px; color: var(--espresso); }
+    .doc-date { font-size: 0.7rem; color: var(--rust); font-weight: 600; text-transform: uppercase; margin-bottom: 8px; }
+    .doc-desc { font-size: 0.85rem; color: #5e4d38; margin-bottom: 16px; line-height: 1.4; }
+    .doc-link { color: var(--rust); font-weight: 600; text-decoration: none; font-size: 0.8rem; }
+    .footer { background: #1e1915; color: #d9cdbc; padding: 48px 0; margin-top: 40px; text-align: center; }
+    @media (max-width: 760px) { .container { padding: 0 20px; } }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-row">
+    <div class="logo"><h1>JOSÉ RIZAL</h1><p>HERITAGE • INTELLECT • NATION</p></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="life-and-times.html">Life & Times</a></li>
+      <li><a href="writings.html">Writings</a></li>
+      <li><a href="analysis.html">Analysis</a></li>
+      <li><a href="legacy.html">Legacy</a></li>
+      <li><a href="archives.html" class="active">Archives</a></li>
+    </ul>
+    <div style="background: #f0e8de; border-radius: 40px; padding: 8px 16px;"><i class="fas fa-search"></i></div>
+  </div>
+</header>
+<section class="page-hero"><div class="container"><h1>📚 Digital Archives</h1><p>Original manuscripts, letters, photographs, and historical documents</p></div></section>
+<div class="container">
+  <div class="archive-filters"><span class="filter-btn active">All Documents</span><span class="filter-btn">Manuscripts</span><span class="filter-btn">Letters</span><span class="filter-btn">Photographs</span><span class="filter-btn">Official Records</span></div>
+  <div class="documents-grid">
+    <div class="doc-card"><div class="doc-preview" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mi_ultimo_adiós_manuscript.jpg/400px-Mi_ultimo_adiós_manuscript.jpg'); background-size: cover;"><i class="fas fa-file-alt" style="background: rgba(0,0,0,0.5); color: white;"></i></div><div class="doc-info"><div class="doc-date">📜 December 29, 1896</div><h3>Mi Último Adiós (Original Manuscript)</h3><div class="doc-desc">Rizal's farewell poem written on the eve of his execution. Hidden inside an alcohol burner. Contains 14 stanzas in Spanish.</div><a href="#" class="doc-link">View scanned document →</a></div></div>
+    <div class="doc-card"><div class="doc-preview"><i class="fas fa-envelope-open-text"></i></div><div class="doc-info"><div class="doc-date">✉️ June 20, 1892</div><h3>Letter to Ferdinand Blumentritt</h3><div class="doc-desc">Rizal describes his return to the Philippines and concerns about Spanish persecution. Reveals his emotional state before exile.</div><a href="#" class="doc-link">Read transcription →</a></div></div>
+    <div class="doc-card"><div class="doc-preview"><i class="fas fa-gavel"></i></div><div class="doc-info"><div class="doc-date">⚖️ December 26, 1896</div><h3>Trial Transcripts – Fort Santiago</h3><div class="doc-desc">Official military court records from Rizal's sham trial. Includes charges of rebellion and sedition.</div><a href="#" class="doc-link">Access PDF →</a></div></div>
+    <div class="doc-card"><div class="doc-preview" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Rizal_Sculpture.jpg/400px-Rizal_Sculpture.jpg'); background-size: cover;"><i class="fas fa-draw-polygon"></i></div><div class="doc-info"><div class="doc-date">🎨 1894</div><h3>Rizal's Sketches & Scientific Drawings</h3><div class="doc-desc">Zoological illustrations of species discovered in Dapitan: Draco rizali, Rhacophorus rizali.</div><a href="#" class="doc-link">View gallery →</a></div></div>
+    <div class="doc-card"><div class="doc-preview"><i class="fas fa-newspaper"></i></div><div class="doc-info"><div class="doc-date">📰 1889-1895</div><h3>La Solidaridad Archives</h3><div class="doc-desc">Complete collection of Rizal's essays published under the Propaganda Movement, including "The Indolence of the Filipino."</div><a href="#" class="doc-link">Browse issues →</a></div></div>
+    <div class="doc-card"><div class="doc-preview"><i class="fas fa-passport"></i></div><div class="doc-info"><div class="doc-date">🛂 1882</div><h3>Rizal's Passport & Travel Log</h3><div class="doc-desc">Original travel documents from Rizal's secret departure to Spain under the name Jose Mercado.</div><a href="#" class="doc-link">View document →</a></div></div>
+  </div>
+  <div style="background: #fff4e5; border-radius: 28px; padding: 32px; margin: 32px 0; text-align: center;"><i class="fas fa-database" style="font-size: 2rem; color: var(--rust);"></i><p style="margin-top: 16px;">The digital archives are continuously updated in partnership with the National Historical Commission of the Philippines and the Rizal Shrine Library.</p></div>
+</div>
+<footer class="footer"><div class="container">© 2025 José Rizal Heritage Project | <a href="index.html" style="color:#e2bc8c;">Return to Home</a></div></footer>
+</body>
+</html>
